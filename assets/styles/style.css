@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+@media  screen and (max-width: 1000px) {
+	#content,
+	aside {
+ 	width: 100%;
+	padding: 0;
+   }
+}
+
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	text-align: center;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+
+main{
+	padding: 20;
+	overflow: auto;
+}
+
+
+
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration : none;
+}
+
+
+nav a:hover {
+	font-weight: bold;
+}
+
+
+h2 {
+   color: #4AA96C
+}
+
+h3 {
+   color: #4AA96C
+}
+
+
+
+
+.image{
+	width : 100%;
+	max-height: 300px;
+	object-position: center;
+	object-fit:cover;
+}
+
+.image:hover {
+	box-shadow: 6px 6px 10px 0 rgba(4, 250, 4, 0.5)
+}
+
+.card {
+	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius : 8px;
+	padding: 20px;
+	margin-top : 20px;
+}
+
+.submit {
+	color:#564A4A
+}
+
+.tema {
+	font-size: 30px;
+	padding: 45px;
+	text-align: center;
+	background-color:#F55C47;
+	color: #564A4A;
+
+}
+
+
+nav {
+   background-color: #9FE6A0;
+   padding: 5px;
+   position: sticky;
+   top: 0; 
+}
+
+header {
+	display: inline;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: #564A4A;
+}
+
+
+nav li {
+
+   display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+   
+}
+
+section h2 {
+	color: #4AA96C
+}
+
+
+.profile header {
+	text-align: center;
+}
+
+
+.profile img {
+	width : 150px;
+}
+
+footer {
+   padding: 15px;
+   color :#564A4A;
+   background-color: #9FE6A0;
+}
+
+footer p {
+	text-align : center;
+}
+
+label{
+	font-weight: bold;
+}
